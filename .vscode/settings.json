@@ -1,0 +1,5 @@
+// .vscode/settings.json
+{
+    "css.customData": [".vscode/tailwindcss.json"],
+  }
+  
