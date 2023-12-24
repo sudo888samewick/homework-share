@@ -8,8 +8,8 @@ import 'flowbite/dist/flowbite.css'
 import React from 'react';
 
 import './css/tailwind.css'
-import ShareLogo from './assets/logos.png'
-
+import Chat from './assets/示意图.png'
+import WeChat from './assets/wechat.png'
 const navigation = [
   { name: 'Product', href: '#' },
   { name: 'Features', href: '#' },
@@ -25,7 +25,7 @@ function App() {
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href='#contact-us' className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
                 className="h-8 w-auto"
@@ -63,7 +63,7 @@ function App() {
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white dark:bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href='#contact-us' className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <img
                   className="h-8 w-auto"
@@ -95,7 +95,7 @@ function App() {
                 </div>
                 {/* <div className="py-6">
                   <a
-                    href="#"
+                    href='#contact-us'
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 dark:text-slate-50 text-gray-900 hover:bg-gray-50"
                   >
                     Log in
@@ -124,19 +124,19 @@ function App() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-7xl text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-slate-50 sm:text-6xl">
-                HulyAd: 复制粘贴 躺着赚钱
+                HomeworkShare:不一样的大学作业代写平台
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-slate-50">
-                无需注册，只需转发链接，我们会将网站一半的收入分享给你，一切可验证，代码尽开源
+                无须担心写手质量，我们会找到您的同班优秀同学来做代写，同时绝不泄露您的信息
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
-                  href="#"
+                  href='#contact-us'
                   className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   试一试
                 </a>
-                <a href="#" className="text-sm font-semibold leading-6 text-gray-900 dark:text-slate-50">
+                <a href='#contact-us' className="text-sm font-semibold leading-6 text-gray-900 dark:text-slate-50">
                   了解更多 <span aria-hidden="true">→</span>
                 </a>
               </div>
@@ -144,7 +144,7 @@ function App() {
             <div className="mt-16 flow-root sm:mt-24">
               <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
                 <img
-                  src="https://tailwindui.com/img/component-images/project-app-screenshot.png"
+                  src={ Chat }
                   alt="App screenshot"
                   width={2432}
                   height={1442}
@@ -157,33 +157,19 @@ function App() {
         </div>
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
           <div className="mx-auto max-w-6xl lg:text-center">
-            <h2 className="text-base font-semibold leading-7 text-indigo-600">Make Money in Minutes</h2> 
-            <p className="mt-2 pb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-slate-50 sm:text-4xl">
-              立刻开始部署
+            <h2 className="text-base font-semibold leading-7 text-indigo-600">Help you finish homework</h2> 
+            <p className="mt-2 pb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-slate-50 sm:text-4xl" id='contact-us'>
+              立即联系我们
             </p>
 
 
             <ol className="relative text-gray-500 border-s border-gray-200 dark:border-gray-700 dark:text-gray-400 transform">
               {
-                [{
-                  title: '起名字',
-                  content: <div className="flex max-w-xl mx-auto">
-                  <span className="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border rounded-e-0 border-gray-300 rounded-s-md dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
-                    https://
-                  </span>
-                  <input type="text" id="website-admin" className="bg-gray-50 border text-gray-900 focus:ring-blue-500 focus:border-blue-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="填入一个英文名字, 确认之后就无法修改哦" />
-                  <span className="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border rounded-e-md border-gray-300 rounded-s-0 dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
-                    .gptinfo.online
-                  </span>
-                  <div className='w-2'></div>
-                  <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">确认</button>
-                </div>,
-                  icon: CopyIcon
-                },
+                [
                 {
-                  title: '分享链接',
+                  title: '添加微信',
                   content: <img
-                  src={ ShareLogo }
+                  src={ WeChat }
                   alt="Share"
                   width={2432}
                   height={1442}

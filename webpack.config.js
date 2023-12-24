@@ -40,6 +40,10 @@ module.exports = {
             }
         }],
       },
+      {
+        test: /\.(svg|ico|png|jpe?g|gif|woff2?|ttf|eot|otf|mp4|webm|ogg|mp3|wav|flac|aac)$/,
+        type: 'asset/inline'
+      }
 
     ]
   },
@@ -60,7 +64,7 @@ module.exports = {
   devtool: isProduction ? false : 'source-map',
   watchOptions: {
     aggregateTimeout: 300, // 延迟等待时间
-    poll: 1000, // 轮询间隔
+    poll: 3000, // 轮询间隔
   },
 
 };
